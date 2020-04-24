@@ -17,6 +17,11 @@ html {
   overflow-x: hidden;
   font-size: 1em;
 }
+.text-box {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
 
 body {
   background: #ffffff;
@@ -102,7 +107,7 @@ a:hover, a:focus, a:active {
   float: left;
   color: #ffffff;
   padding-left: 60px;
-  font-size: 40px;
+  font-size: 20px;
   display: block;
   text-transform: uppercase;
   font-weight: 500;
@@ -512,8 +517,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  border: 1px solid #ff7676;
-  background: #ff7676;
+  border: 4px solid #eb67a6;
+  background: #f17f91;
   color: #ffffff;
 }
 
@@ -610,8 +615,8 @@ a:hover, a:focus, a:active {
   background: #ff7676;
   background: #f54ea2;
   background: -webkit-gradient(left top, right top, color-stop(0%, #f54ea2), color-stop(100%, #ff7676));
-  background: -webkit-gradient(linear, left top, right top, from(#f54ea2), to(#ff7676));
-  background: linear-gradient(to right, #f54ea2 0%, #ff7676 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ed9ec6), to(#ff7676));
+  background: linear-gradient(to right, #3e2934 0%, #be7c7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
 }
 
@@ -1157,10 +1162,24 @@ a:hover, a:focus, a:active {
   display: inltial;
 }
 
+.textbox {
+  border: 2px 
+  border-radius: 25px;
+  background-image: url("img/img_2.jpg");
+  background-size: cover;
+  /* background-color: rgb(200, 167, 199); */
+  opacity: 0.3;
+  padding: 30px; 
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.1);
+  
+}
 .probootstrap-box {
   background: #ffffff;
-  padding: 2em;
-  margin-bottom: 1.5em;
+  background-size: cover;
+  /* padding: 2em; */
+  padding: 30px; 
+  /* margin-bottom: 1.5em; */
   -webkit-box-shadow: 18px 17px 104px -24px rgba(0, 0, 0, 0.1);
   box-shadow: 18px 17px 104px -24px rgba(0, 0, 0, 0.1);
 }
