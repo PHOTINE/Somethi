@@ -1,1 +1,1 @@
-# biocomputeclub
+# biocompute
